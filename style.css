@@ -6,33 +6,35 @@ body {
     margin-right: 10%;
     /*background: -webkit-linear-gradient(90deg, rgb(137, 45, 8), rgb(20, 90, 37));
     background: radial-gradient(90deg, rgb(137, 45, 8), rgb(20, 90, 37));*/
-    background-image: url("images/garde.jpg");
+    background-image: url("images/chinese background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
-header:nth-child(third){
-    background: yellow;
+header:first-child{
+    background: #D4ED16;
     border-radius: 8px;
     padding: 1px;
+    text-align: center;
+    color: darkolivegreen;
 }
 
 h1{
 
 }
 
+.fixFloat {
+    display: block;
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    margin-right: 25%;
+}
+
 .time-and-author{
-
-}
-
-time{
-    font-size: small;
-}
-
-.name-author{
-    font-size: large;
+text-align: center;
 }
 
 figure{
@@ -40,18 +42,41 @@ figure{
 }
 
 #image-one{
+    border-radius: 8px;
+    width: 250px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    margin-right: 25%;
+    padding-bottom: 80px;
+}
 
+time{
+    font-size: small;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: darkolivegreen;
+}
+
+.name-author{
+    font-size: large;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: darkolivegreen;
 }
 
 section{
 
 }
 .preamble{
-    color: darkblue;
+    color: darkolivegreen;
     text-align: center;
-}
-
-h2{
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    margin-right: 25%;
+    padding-bottom: 80px;
 
 }
 
@@ -68,18 +93,27 @@ li{
 }
 
 .story{
+    text-align: center;
     margin-top: auto;
     margin-left: 25%;
     margin-bottom: auto;
     margin-right: 25%;
-
 }
 
-.story p{
-    font-size: 160%;
+.storyPartOne p{
     padding-top: 80px;
     padding-bottom: 80px;
-    color: darkblue;
+    color: darkolivegreen;
+}
+
+.storyPartTwo p{
+    padding-bottom: 80px;
+    color: darkolivegreen;
+}
+
+.storyPartThree p{
+    padding-bottom: 80px;
+    color: darkolivegreen;
 }
 
 .commiserate{
@@ -88,6 +122,10 @@ li{
     background-color: lightgray;
     font-style: italic;
     }
+
+q{
+    display: block;
+}
 
 .farmer{
     border-left: 5px dashed green;
@@ -136,7 +174,6 @@ table{
     border: 3px solid black;
     width: 50%;
     text-align: center;
-    padding: 15px;
     margin-top: auto;
     margin-left: 25%;
     margin-bottom: auto;
@@ -145,6 +182,9 @@ table{
 
 caption{
     text-align: center;
+    color: darkolivegreen;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 tr{
@@ -168,10 +208,32 @@ td{
 .farmers-philosophy{
     text-align: center;
     font-weight: bold;
+    color: darkolivegreen;
+    padding-top: 20px;
+    padding-bottom: 80px;
 }
 
 h4{
 
+}
+
+.conclusion{
+    padding-bottom: 80px;
+}
+
+.notification{
+    position: fixed;
+    right: 0px;
+    bottom: 50px;
+    padding:.5rem 1rem;
+    width:150px;
+    font-weight:bold;
+    color: darkolivegreen;
+}
+
+.notification img{
+    border-radius: 50%;
+    width: 150px;
 }
 
 footer{
