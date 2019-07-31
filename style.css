@@ -153,11 +153,11 @@ q{
 }
 
 a{
-    color: darkblue;
+    color: darkolivegreen;
 }
 
 a:visited{
-    color: purple;
+    color: lawngreen;
     cursor: move;
 }
 
