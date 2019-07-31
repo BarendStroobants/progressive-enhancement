@@ -10,6 +10,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -42,7 +43,6 @@ figure{
 }
 
 #image-one{
-    border-radius: 8px;
     width: 250px;
     float: left;
     margin-top: 25px;
@@ -226,14 +226,14 @@ h4{
     right: 0px;
     bottom: 50px;
     padding:.5rem 1rem;
-    width:150px;
+    width:100px;
     font-weight:bold;
     color: darkolivegreen;
 }
 
 .notification img{
     border-radius: 50%;
-    width: 150px;
+    width: 100px;
 }
 
 footer{
